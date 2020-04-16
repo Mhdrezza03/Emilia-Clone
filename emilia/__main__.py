@@ -137,17 +137,17 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             first_name = update.effective_user.first_name
             buttons = InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🎉 Tambahkan ke Grup", url="https://t.me/YasirAssistant_bot?startgroup=new")],
+                [[InlineKeyboardButton(text="🎉 Tambahkan ke Grup", url="https://t.me/Balqissbot?startgroup=new")],
                 [InlineKeyboardButton(text="💭 Bahasa", callback_data="main_setlang"), InlineKeyboardButton(text="⚙️ Hubungkan Grup", callback_data="main_connect")],
                 [InlineKeyboardButton(text="👥 Grup Pendukung", url="https://t.me/EmiliaOfficial"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/AyraBotNews")],
-                [InlineKeyboardButton(text="❓ Bantuan", url="https://t.me/YasirAssistant_bot?start=help"), InlineKeyboardButton(text="💖 Donasi", url="http://ayrahikari.github.io/donations.html")]])
+                [InlineKeyboardButton(text="❓ Bantuan", url="https://t.me/Balqissbot?start=help"), InlineKeyboardButton(text="🤑 Donasi", url="https://t.me/SquidwardTentacles0")]])
             update.effective_message.reply_text(
                 tl(update.effective_message, PM_START_TEXT).format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 disable_web_page_preview=True,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=buttons)
     else:
-        update.effective_message.reply_text(tl(update.effective_message, "Ada yang bisa saya bantu, gan? 😊"))
+        update.effective_message.reply_text(tl(update.effective_message, "Ada yang bisa Balqis bantu sayang😘 ?"))
 
 
 def m_connect_button(bot, update):
