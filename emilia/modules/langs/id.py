@@ -3,17 +3,13 @@ __lang__ = "🇮🇩 Indonesia"
 id = {
 # main stuff
 	"start_text": """
-Hai {}, namaku {}! Saya seorang manajer grup yang dikelola oleh master saya yang bernama [Yasir Aris M 🙎](tg://user?id={}).
-Anda dapat bergabung dengan channel saya [YasiPedia Channel](https://t.me/YasirPediaChannel) atau [Ayra's Bot News](https://t.me/AyraBotNews)
-
+Hai {}, namaku {}! Apa yang bisa Balqis bantu ?
 Ada masalah atau butuh bantuan lebih?
-Gabung grup [Emilia Official Support](https://t.me/EmiliaOfficial)!
-
-Anda bisa menemukan daftar perintah yang tersedia dengan /help.
+Kamu bisa menemukan daftar perintah yang tersedia dengan mengetik /help.
 
 """,
 	"help_text": """
-Hai! Nama saya adalah *Frozen Bot*.
+Hai! Nama saya adalah *Balqis Bot*.
 Saya adalah bot manajemen grup dengan beberapa kelebihan yang menyenangkan! Silahkan lihat berikut ini untuk beberapa ide dari \
 hal-hal yang bisa saya bantu.
 
@@ -30,14 +26,14 @@ hal-hal yang bisa saya bantu.
 All commands can either be used with / or !.
 
 """,
-	"donate_text": """Hai, senang mendengar Anda ingin menyumbang!
-Butuh banyak pekerjaan untuk [pencipta saya](tg://user?id=388576209) untuk membawa saya ke tempat saya sekarang, dan \
+	"donate_text": """Hai, senang mendengar Kamu ingin memberi uang jajan ke Balqis:)
+Butuh banyak pekerjaan untuk [Pembuat saya](tg://user?id=1122931861) untuk membawa saya ke tempat saya sekarang, dan \
 setiap sumbangan membantu dan memotivasi dia untuk membuat saya lebih baik.
 
-Semua uang sumbangan akan diberikan ke VPS yang lebih baik untuk menjadi tuan rumah saya, dan atau beberapa makanan. \
+Semua uang jajan akan diberikan ke Balqis yang lebih baik untuk pemilik Balqis, \
 Dia hanya orang biasa, jadi akan sangat membantu dia!
 
-Jika anda memang berminat untuk donate, silahkan kunjungi ayrahikari.github.io/donations.html, Terima kasih 😁""",
+Jika kamu memang berminat untuk memberi uang jajan ke Balqis, silahkan chat mesra pemilik saya https://t.me/SquidwardTentacles0, Terima kasih 😁""",
 	
 # Help modules
 	"language_help": """Tidak semua grup berbicara bahasa Indonesia; beberapa grup lebih suka Emilia menanggapi dalam bahasa mereka sendiri.
